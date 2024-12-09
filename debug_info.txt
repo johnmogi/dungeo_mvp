@@ -46,50 +46,73 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\0d
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\17
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\18
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1a
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\20
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\26
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\27
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\29
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\2c
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\38
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\3d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\41
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\48
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4a
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\55
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\57
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\65
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\67
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\68
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\6c
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\71
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\78
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\7e
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\80
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\82
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8c
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\94
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\96
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9a
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\a3
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ac
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ad
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b5
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b6
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b8
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bb
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bf
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c2
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c6
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ca
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ce
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\db
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\df
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e2
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e8
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e9
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ec
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ed
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ef
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f2
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f5
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f8
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\fa
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ff
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\info
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\pack
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\07\7a833833f4667bdbd98edf51fd3cbbdef70f80
@@ -98,56 +121,86 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\0d\db84376975d92429a66821f9c
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\17\e44ae0d41f65e1c6ec33b33f7a8084355af89d
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\18\e13f59bf2ac685b3fc42bf92c41e17600a3df1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1a\f96b145228aa68a65ce7507fc1fd590d4872ed
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1b\3bd3f73cfdc01651e444a58fd958592d09f7b4
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\20\66633c124e9221b3a8cf2c73fe906b9fc88f8f
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\26\42061f32c7af4aa4ae6217c8999224174049c5
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\27\3f4db03294c45ddb62b3ed52a9f1b81e87cb20
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\29\16528d14965bf4a9f3d8bfece6f1fbccbb9742
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\2c\85771c03b2ba2cfccbdaadb61f21771645fff9
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\38\35e23a1c6d110679f27d82bd920b99519e4850
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\38\f365f7025e5f2cc9e3fc0534203e9fe5865795
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\3d\880a87781c6ffdbf6a4449fa1771809a7ff261
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\41\9784faf115291cd2f9749e070ec2a306d355e3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\48\6912cb07b32a1c864388980942c6e41e64ae48
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4a\e891d621a1c9a6813ff2e34a9e9e9721c9a7df
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4b\0d706236e4d66f656a1605377b00c48d24665c
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\55\86ac5a5109ee426911c1deab1e22642210d0db
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\57\a5e57a29b0df72183103c76b36259f491fac8d
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d\3a5739138e8c9881c2184cc7da3e9f04b6c26b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d\3ea6c39f21500ef69707e98b6d1bf4669db381
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5e\6507fec0f977bd98d0a996a6a55a006cda3ae3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\65\fd08944a541afe558eac7b82b46e0489aceadc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\67\7602e8793039c5f969ca0be3e1fd1139fe3929
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\68\3a99c566c1a7f140b84ed9a436735d84d2ea57
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\6c\72b09b3e6963a3a6ca6bede344605cbaa9f3e3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\71\adfee90ad2825cb60dae90318650cecb560d82
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72\8a2764bf48cc4c06975a4dea9f2aebc1037db2
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72\b286be60f55ad75029ff9da3bf96a7fb485022
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\78\98f5597e0b9bafd9dc473fdb2c9141b6b4ae85
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\7e\3f104590e74d8c3d6d85b5757eda6f63f2093b
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\80\eb57fad6e9da675cf66c7cc29254a4319d1117
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\82\bda11e7a761b3a2c6a66ebd47430f9557f4720
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\82\d9fc4e32af17bb5f54505f88702fa24c70aaf0
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8b\137891791fe96927ad78e64b0aad7bded08bdc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8b\43387c5347003530e18c4b3002bd110187cf86
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8c\59d2780be20a8ff72a03cf08c75a205fc7c557
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8e\d06df5f8a403f10a8c89ec9703fd21009f5396
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8f\4e0f870196f26278ed090da9916181771599b1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\94\c7147a3a5ac6145d8525c8337c00e1e90c0db9
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\96\dd3385077384038c4ca97caf08ab8442c27ecf
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9a\bef085f675785a317cda33c6a28af6dc27f27f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9e\52811fd0bc9374b3454a45bbefda3dfbc6d00e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\a3\422c50066875e6521d25f58fafb844a8f58e5e
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ac\1070aaf7cc76f2ebd70ca26193119d4814cd2f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ad\063b55d7de2c8f8976a532ee4e959313273682
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b5\90c85f6d2f4240007d8ceac0c2aeb7d848b9b9
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b6\b27ef6aa0b937bdec5a0d6f2481a8b803143c8
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b7\6fbddb6503665f8f34832ab9f78c5b6d3cec4b
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b7\ba2f1d3c9f18e388ce4f15ec2332ab51e899aa
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b8\570801755bfda7f0e36f62dc1fd45491781289
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba\2b6288055832064ea7de0d78be37cabfa66331
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba\7b89a7c5a5a7a806cee590fa9f0562453f5f57
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bb\dfc19cfd357b90be866ce3801cd657dd5b4a93
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bf\11f3834528fd8792ffa5b0602bab1ee9c4f1c7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c1\573ba7627090faf6d9c2d6bd116f48e84f0e4f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c2\64e04f7cd5745213a44cf60797dc76bd1d47ec
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c6\a28f24a0fe1375668c7d8acf93ea7fafb07013
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c7\ad624ed99f770db9841340a1810d8dc65c6363
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ca\107d6758bcbeb20828f4ed6581780eb07edaa7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc\0c866b4731e482dc7a2de52a81760cfb9d3100
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc\bfa316c37e261a8a05c99ad4e2ee9e0758e497
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ce\22e693cd1d4fb1de34459995bf6e1d0bb5fe80
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d1\1829da806665bbf41326c0231d5aeb60372172
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d3\e98d743bfbe5f0804ea06d1d91909d84f3cd7d
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\db\6dbc670848ee98e228c86b04d4225d70b16d56
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\df\0ac7e27c186ce4352731a9640edac5f6959831
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e2\885041e1284a3ce31bf0dfc7d4f4e22a29ae75
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\1bef9aaf69cd3a3c0d468d74ff44826a2abdc7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\4983f0ef2d600803e51dbd9bfb112bc5bdbc73
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\9a00239b857a7317b286847f8cb0aa3ff1a3bd
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\fdbcdcc44179dd0edd8a2e2f7c495e533cc5df
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e8\edb7a67328719f6afab788082074c299691c48
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e9\b5b63cbaaa37a058206f733c692661630cb12c
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ec\54bab3c350040a97cba2ea92d532aa96d58f02
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ed\833b80b9a71387fbe22f610a657628fabb7a72
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ed\9e77d6deb53e8ceebc559ffeec6df8ec79094a
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ed\c2ae16a2809059c94ce727357bc01ea23e22ea
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ef\513695ad0b1dff300aef6eebf2277687584f85
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f2\632aede8b7f01e19817ab2afda1411cad75547
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f5\89a7e380cdce7fd82c3793c6ee4548ad78fd62
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f8\329cf4a7985751a94afa6adceb3c5ebb871f27
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\fa\e3ed7c027ae5ded97a47e14d9d5f2cff0bdd54
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ff\ad59064330893e249d216e9b9b5ba045239a52
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\heads
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\remotes
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\tags
@@ -177,6 +230,8 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\combat_screen.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\game_board.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\game_over_screen.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\loading_screen.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\screen_manager.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\victory_screen.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\welcome_screen.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__init__.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__
@@ -186,6 +241,8 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\combat_screen.cpython
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\game_board.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\game_over_screen.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\loading_screen.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\screen_manager.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\victory_screen.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\welcome_screen.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\__init__.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\__pycache__\game_state.cpython-310.pyc
@@ -194,34 +251,59 @@ File Contents:
 ### game_state.py ### 
 class GameState:
     def __init__(self):
+        self.reset()
+
+    def reset(self):
+        # Screen management
+        self.current_screen = None
         self.sound_enabled = True
         self.cheat_mode = False
-        self.selected_character = None
-        self.hp = 100
-        self.max_hp = 100
-        self.attack = 20
-        self.defense = 15
-        self.potions = 2
+        
+        # Board state
+        self.board = [[None] * 3 for _ in range(3)]
         self.current_position = (0, 0)
+        
+        # Character stats
+        self.selected_character = None
+        self.hp = 0
+        self.max_hp = 0
+        self.attack = 0
+        self.defense = 0
+        self.potions = 3
+        
+        # Game progress
         self.rooms_cleared = 0
         self.monsters_defeated = 0
         self.items_collected = 0
-        self.start_time = None
-        self.board = [[None for _ in range(3)] for _ in range(3)]
+        
+        # Achievements
         self.achievements = {
-            "First Blood": False,
-            "Potion Master": False,
-            "Perfect Run": False
+            "Perfect Victory": False,  # Complete game with full HP
+            "Monster Slayer": False,  # Defeat all monsters
+            "Treasure Hunter": False,  # Collect all items
+            "Speed Runner": False,    # Clear dungeon in minimal moves
+            "Survivor": False         # Win with less than 25% HP
         }
 
     def toggle_sound(self):
         self.sound_enabled = not self.sound_enabled
+        return self.sound_enabled
 
     def toggle_cheat_mode(self):
         self.cheat_mode = not self.cheat_mode
+        return self.cheat_mode
 
-    def reset(self):
-        self.__init__()
+    def update_achievements(self):
+        if self.hp == self.max_hp:
+            self.achievements["Perfect Victory"] = True
+        if self.monsters_defeated >= 3:  # Assuming 3 monsters on board
+            self.achievements["Monster Slayer"] = True
+        if self.items_collected >= 2:    # Assuming 2 items on board
+            self.achievements["Treasure Hunter"] = True
+        if self.rooms_cleared <= 5:      # Optimal path is 5 moves
+            self.achievements["Speed Runner"] = True
+        if self.hp <= self.max_hp * 0.25:
+            self.achievements["Survivor"] = True
  
 ### main.py ### 
 import pygame
@@ -277,3 +359,565 @@ if __name__ == "__main__":
     game = Game()
     game.run()
  
+### screens\base_screen.py ### 
+import pygame
+
+class BaseScreen:
+    def __init__(self, screen, game_state):
+        self.screen = screen
+        self.game_state = game_state
+        self.font = pygame.font.Font(None, 36)
+
+    def update(self): return None
+    def draw(self): pass
+    def handle_event(self, event): return None
+
+    def draw_text(self, text, color, center_pos):
+        text_surface = self.font.render(text, True, color)
+        text_rect = text_surface.get_rect(center=center_pos)
+        self.screen.blit(text_surface, text_rect) 
+### screens\character_select.py ### 
+import pygame
+from .base_screen import BaseScreen
+from .screen_manager import ScreenManager
+
+class CharacterSelect(BaseScreen):
+    def __init__(self, screen, game_state):
+        super().__init__(screen, game_state)
+        self.characters = {
+            'Warrior': {'hp': 120, 'attack': 15, 'defense': 20},
+            'Archer': {'hp': 100, 'attack': 20, 'defense': 15},
+            'Mage': {'hp': 80, 'attack': 25, 'defense': 10}
+        }
+        self.selected = 0
+        self.char_list = list(self.characters.keys())
+        
+    def draw(self):
+        self.screen.fill((20, 20, 30))
+        
+        # Draw title
+        self.draw_text("Select Your Character", (200, 200, 255), 
+                      (self.screen.get_width()//2, 100))
+        
+        # Draw character options
+        for i, char in enumerate(self.char_list):
+            color = (255, 255, 0) if i == self.selected else (255, 255, 255)
+            self.draw_text(char, color, 
+                          (self.screen.get_width()//2, 200 + i * 50))
+            
+            # Draw stats if selected
+            if i == self.selected:
+                stats = self.characters[char]
+                stat_text = [
+                    f"HP: {stats['hp']}",
+                    f"Attack: {stats['attack']}",
+                    f"Defense: {stats['defense']}"
+                ]
+                for j, text in enumerate(stat_text):
+                    self.draw_text(text, (150, 150, 150),
+                                  (self.screen.get_width()//2, 350 + j * 30))
+        
+        # Draw controls
+        self.draw_text("Press ENTER or SPACE to select", (150, 150, 150),
+                      (self.screen.get_width()//2, 500))
+
+    def handle_event(self, event):
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_UP:
+                self.selected = (self.selected - 1) % len(self.char_list)
+            elif event.key == pygame.K_DOWN:
+                self.selected = (self.selected + 1) % len(self.char_list)
+            elif event.key in [pygame.K_RETURN, pygame.K_SPACE]:
+                char = self.char_list[self.selected]
+                stats = self.characters[char]
+                
+                # Set character stats in game state
+                self.game_state.selected_character = char
+                self.game_state.hp = stats['hp']
+                self.game_state.max_hp = stats['hp']
+                self.game_state.attack = stats['attack']
+                self.game_state.defense = stats['defense']
+                
+                return ScreenManager.get_screen('game_board', self.screen, self.game_state)
+        return None 
+### screens\combat_screen.py ### 
+# screens/combat_screen.py
+import pygame
+import random
+from .base_screen import BaseScreen
+from .game_over_screen import GameOverScreen
+
+class CombatScreen(BaseScreen):
+   def __init__(self, screen, game_state):
+       super().__init__(screen, game_state)
+       self.choices = ['R', 'P', 'S']
+       self.selected = 0
+       self.monster_hp = 50
+       self.monster_max_hp = 50
+       self.player_choice = None
+       self.monster_choice = None
+       self.last_result = None
+       self.turn_phase = 'choose'  # 'choose', 'result'
+
+   def draw(self):
+       self.screen.fill((20, 20, 30))
+
+       # Draw health bars
+       self._draw_health_bars()
+
+       # Draw combat options
+       if self.turn_phase == 'choose':
+           self._draw_combat_options()
+       else:
+           self._draw_combat_result()
+
+   def _draw_health_bars(self):
+       # Player health
+       self.draw_text(f"Hero HP: {self.game_state.hp}/{self.game_state.max_hp}", 
+                     (255, 255, 255), (200, 50))
+       
+       # Monster health
+       self.draw_text(f"Monster HP: {self.monster_hp}/{self.monster_max_hp}", 
+                     (255, 255, 255), (600, 50))
+
+   def _draw_combat_options(self):
+       options = ['Rock', 'Paper', 'Scissors', 'Use Potion', 'Flee']
+       for i, option in enumerate(options):
+           color = (255, 255, 0) if i == self.selected else (255, 255, 255)
+           self.draw_text(option, color, 
+                         (self.screen.get_width()//2, 250 + i * 50))
+
+   def _draw_combat_result(self):
+       if self.last_result:
+           self.draw_text(self.last_result, (255, 255, 255), 
+                         (self.screen.get_width()//2, 300))
+           self.draw_text("Press SPACE to continue", (200, 200, 200), 
+                         (self.screen.get_width()//2, 500))
+
+   def handle_event(self, event):
+       if event.type != pygame.KEYDOWN:
+           return None
+
+       if self.turn_phase == 'choose':
+           return self._handle_choice(event.key)
+       else:
+           return self._handle_result(event.key)
+
+   def _handle_choice(self, key):
+       if key == pygame.K_UP:
+           self.selected = (self.selected - 1) % 5
+       elif key == pygame.K_DOWN:
+           self.selected = (self.selected + 1) % 5
+       elif key in [pygame.K_RETURN, pygame.K_SPACE]:  # Accept both keys
+           if self.selected < 3:  # RPS choice
+               self.player_choice = self.choices[self.selected]
+               self.monster_choice = random.choice(self.choices)
+               damage = self._calculate_damage()
+               self.monster_hp -= damage
+               self.last_result = f"You chose {self.player_choice}, Monster chose {self.monster_choice}\n"
+               self.last_result += f"Damage dealt: {damage}"
+               self.turn_phase = 'result'
+           elif self.selected == 3:  # Use potion
+               if self.game_state.potions > 0:
+                   self.game_state.potions -= 1
+                   heal = min(30, self.game_state.max_hp - self.game_state.hp)
+                   self.game_state.hp += heal
+                   self.last_result = f"Used potion. Healed {heal} HP"
+                   self.turn_phase = 'result'
+           elif self.selected == 4:  # Flee
+               if random.random() < 0.7:
+                   return self.parent_screen
+               else:
+                   self.last_result = "Failed to flee!"
+                   self.turn_phase = 'result'
+       return None
+
+   def _check_death(self):
+       if self.game_state.hp <= 0:
+           self.game_state.hp = 0
+           return GameOverScreen(self.screen, self.game_state)
+       return None
+
+   def _handle_result(self, key):
+       if key == pygame.K_SPACE:
+           if self.monster_hp <= 0:
+               self.game_state.monsters_defeated += 1
+               return self.parent_screen
+           self.turn_phase = 'choose'
+           
+           # Monster's turn
+           monster_damage = random.randint(5, 15)
+           self.game_state.hp -= monster_damage
+           
+           death_check = self._check_death()
+           if death_check:
+               return death_check
+               
+       return None
+
+   def _calculate_damage(self):
+       if self.player_choice == self.monster_choice:
+           return 10
+       wins = {'R': 'S', 'P': 'R', 'S': 'P'}
+       if wins[self.player_choice] == self.monster_choice:
+           return 20
+       return 5 
+### screens\game_board.py ### 
+# screens/game_board.py 
+import pygame
+import random
+from .base_screen import BaseScreen
+from .combat_screen import CombatScreen
+from .game_over_screen import GameOverScreen
+from .victory_screen import VictoryScreen
+
+class GameBoard(BaseScreen):
+    def __init__(self, screen, game_state):
+        super().__init__(screen, game_state)
+        self.cell_size = 120
+        self.grid_size = 3
+        self.margin_x = (screen.get_width() - self.cell_size * self.grid_size) // 2
+        self.margin_y = 100
+        self.revealed = [[False] * self.grid_size for _ in range(self.grid_size)]
+        self.revealed[0][0] = True  # Start room is visible
+        
+        if not any(any(cell for cell in row) for row in game_state.board):
+            self._generate_board()
+
+    def _generate_board(self):
+        self.game_state.board[0][0] = 'S'
+        self.game_state.board[2][2] = 'E'
+        events = ['M', 'I', 'T', 'M', 'I']  # More monsters and items
+        for i in range(self.grid_size):
+            for j in range(self.grid_size):
+                if (i,j) not in [(0,0), (2,2)]:
+                    self.game_state.board[i][j] = random.choice(events)
+
+    def draw(self):
+        self.screen.fill((20, 20, 30))
+        
+        for i in range(self.grid_size):
+            for j in range(self.grid_size):
+                x = self.margin_x + j * self.cell_size
+                y = self.margin_y + i * self.cell_size
+                
+                cell_color = (40, 40, 50)
+                if self.revealed[i][j]:
+                    cell_color = (60, 60, 70)
+                pygame.draw.rect(self.screen, cell_color, 
+                               (x, y, self.cell_size, self.cell_size))
+                pygame.draw.rect(self.screen, (80, 80, 90), 
+                               (x, y, self.cell_size, self.cell_size), 2)
+
+                if self.revealed[i][j]:
+                    cell = self.game_state.board[i][j]
+                    if cell:
+                        color = self._get_cell_color(cell, (i,j))
+                        text = self.font.render(cell, True, color)
+                        text_rect = text.get_rect(center=(
+                            x + self.cell_size//2,
+                            y + self.cell_size//2
+                        ))
+                        self.screen.blit(text, text_rect)
+
+        self._draw_ui()
+
+    def _get_cell_color(self, cell, pos):
+        if pos == self.game_state.current_position:
+            return (255, 255, 0)
+        colors = {
+            'S': (0, 255, 0),
+            'E': (255, 0, 0),
+            'M': (200, 50, 50),
+            'I': (50, 200, 200),
+            'T': (200, 200, 50)
+        }
+        return colors.get(cell, (255, 255, 255))
+
+    def _draw_ui(self):
+        self.draw_text("Dungeon Quest", (200, 200, 255), 
+                      (self.screen.get_width()//2, 40))
+        
+        stats_text = f"HP: {self.game_state.hp}/{self.game_state.max_hp}  Potions: {self.game_state.potions}"
+        self.draw_text(stats_text, (255, 255, 255), 
+                      (self.screen.get_width()//2, self.screen.get_height() - 60))
+        
+        controls = "Arrow Keys: Move  |  ESC: Menu"
+        self.draw_text(controls, (150, 150, 150),
+                      (self.screen.get_width()//2, self.screen.get_height() - 30))
+
+    def _check_death(self):
+        if self.game_state.hp <= 0:
+            self.game_state.hp = 0
+            return GameOverScreen(self.screen, self.game_state)
+        return None
+
+    def handle_event(self, event):
+        if event.type == pygame.KEYDOWN:
+            x, y = self.game_state.current_position
+            new_pos = None
+            
+            if event.key == pygame.K_UP and x > 0:
+                new_pos = (x-1, y)
+            elif event.key == pygame.K_DOWN and x < 2:
+                new_pos = (x+1, y)
+            elif event.key == pygame.K_LEFT and y > 0:
+                new_pos = (x, y-1)
+            elif event.key == pygame.K_RIGHT and y < 2:
+                new_pos = (x, y+1)
+                
+            if new_pos:
+                return self._handle_movement(new_pos)
+                
+        return None
+
+    def _handle_movement(self, new_pos):
+        x, y = new_pos
+        self.revealed[x][y] = True
+        cell = self.game_state.board[x][y]
+        
+        self.game_state.current_position = new_pos
+        self.game_state.rooms_cleared += 1
+        
+        if cell == 'M':
+            combat_screen = CombatScreen(self.screen, self.game_state)
+            combat_screen.parent_screen = self
+            return combat_screen
+        elif cell == 'I':
+            self.game_state.items_collected += 1
+            self.game_state.potions += 1
+            self.game_state.board[x][y] = None
+        elif cell == 'T':
+            damage = 10
+            self.game_state.hp = max(0, self.game_state.hp - damage)
+            self.game_state.board[x][y] = None
+            
+            death_check = self._check_death()
+            if death_check:
+                return death_check
+        elif cell == 'E':
+            return VictoryScreen(self.screen, self.game_state)
+            
+        return None 
+### screens\game_over_screen.py ### 
+# screens/game_over_screen.py
+import pygame
+from .base_screen import BaseScreen
+from .screen_manager import ScreenManager
+
+class GameOverScreen(BaseScreen):
+    def __init__(self, screen, game_state):
+        super().__init__(screen, game_state)
+        
+    def draw(self):
+        self.screen.fill((20, 20, 30))
+        
+        # Draw game over message
+        self.draw_text("Game Over!", (255, 0, 0), 
+                      (self.screen.get_width() // 2, 100))
+        
+        # Draw stats
+        stats = [
+            f"Character: {self.game_state.selected_character}",
+            f"Final HP: {self.game_state.hp}/{self.game_state.max_hp}",
+            f"Rooms Cleared: {self.game_state.rooms_cleared}/9",
+            f"Monsters Defeated: {self.game_state.monsters_defeated}",
+            f"Items Collected: {self.game_state.items_collected}"
+        ]
+        
+        for i, stat in enumerate(stats):
+            self.draw_text(stat, (255, 255, 255),
+                          (self.screen.get_width() // 2, 200 + i * 40))
+        
+        # Draw restart prompt
+        self.draw_text("Press ENTER or SPACE to return to menu", (150, 150, 150),
+                      (self.screen.get_width() // 2, 500))
+
+    def handle_event(self, event):
+        if event.type == pygame.KEYDOWN:
+            if event.key in [pygame.K_RETURN, pygame.K_SPACE]:
+                self.game_state.reset()  # Reset game state
+                return ScreenManager.get_screen('welcome', self.screen, self.game_state)
+        return None 
+### screens\loading_screen.py ### 
+import pygame
+import time
+from .base_screen import BaseScreen
+from .welcome_screen import WelcomeScreen
+
+class LoadingScreen(BaseScreen):
+    def __init__(self, screen, game_state):
+        super().__init__(screen, game_state)
+        self.start_time = time.time()
+        self.duration = 5
+        self.bar_width = 400
+        self.bar_height = 20
+        self.bar_x = (screen.get_width() - self.bar_width) // 2
+        self.bar_y = screen.get_height() - 100
+
+    def update(self):
+        elapsed_time = time.time() - self.start_time
+        if elapsed_time >= self.duration:
+            return WelcomeScreen(self.screen, self.game_state)
+        return None
+
+    def draw(self):
+        self.screen.fill((0, 0, 0))
+        progress = min((time.time() - self.start_time) / self.duration, 1)
+        pygame.draw.rect(self.screen, (100, 100, 100), 
+                        (self.bar_x, self.bar_y, self.bar_width, self.bar_height))
+        pygame.draw.rect(self.screen, (255, 255, 255),
+                        (self.bar_x, self.bar_y, int(self.bar_width * progress), self.bar_height))
+        self.draw_text("Loading...", (255, 255, 255), 
+                      (self.screen.get_width() // 2, self.bar_y - 30))
+
+    def handle_event(self, event):
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+            return WelcomeScreen(self.screen, self.game_state)
+        return None 
+### screens\screen_manager.py ### 
+class ScreenManager:
+    @staticmethod
+    def get_screen(screen_name, screen, game_state):
+        # Import screens here to avoid circular imports
+        from .welcome_screen import WelcomeScreen
+        from .loading_screen import LoadingScreen
+        from .character_select import CharacterSelect
+        from .game_board import GameBoard
+        from .combat_screen import CombatScreen
+        from .game_over_screen import GameOverScreen
+        from .victory_screen import VictoryScreen
+
+        screens = {
+            'welcome': WelcomeScreen,
+            'loading': LoadingScreen,
+            'character_select': CharacterSelect,
+            'game_board': GameBoard,
+            'combat': CombatScreen,
+            'game_over': GameOverScreen,
+            'victory': VictoryScreen
+        }
+        
+        return screens[screen_name](screen, game_state)
+ 
+### screens\victory_screen.py ### 
+import pygame
+from .base_screen import BaseScreen
+from .welcome_screen import WelcomeScreen
+
+class VictoryScreen(BaseScreen):
+    def __init__(self, screen, game_state):
+        super().__init__(screen, game_state)
+        
+    def draw(self):
+        self.screen.fill((20, 20, 30))
+        
+        # Draw victory message
+        self.draw_text("Victory!", (255, 215, 0),  # Gold color
+                      (self.screen.get_width() // 2, 100))
+        
+        # Draw stats
+        stats = [
+            f"Character: {self.game_state.selected_character}",
+            f"Final HP: {self.game_state.hp}/{self.game_state.max_hp}",
+            f"Rooms Cleared: {self.game_state.rooms_cleared}/9",
+            f"Monsters Defeated: {self.game_state.monsters_defeated}",
+            f"Items Collected: {self.game_state.items_collected}"
+        ]
+        
+        for i, stat in enumerate(stats):
+            self.draw_text(stat, (255, 255, 255),
+                          (self.screen.get_width() // 2, 200 + i * 40))
+        
+        # Draw achievements if any
+        achieved = [name for name, unlocked in self.game_state.achievements.items() 
+                   if unlocked]
+        if achieved:
+            self.draw_text("Achievements:", (255, 215, 0),
+                          (self.screen.get_width() // 2, 400))
+            for i, achievement in enumerate(achieved):
+                self.draw_text(achievement, (200, 200, 200),
+                              (self.screen.get_width() // 2, 440 + i * 30))
+        
+        # Draw restart prompt
+        self.draw_text("Press ENTER or SPACE to return to menu", (150, 150, 150),
+                      (self.screen.get_width() // 2, 550))
+
+    def handle_event(self, event):
+        if event.type == pygame.KEYDOWN:
+            if event.key in [pygame.K_RETURN, pygame.K_SPACE]:
+                self.game_state.reset()  # Reset game state
+                return WelcomeScreen(self.screen, self.game_state)
+        return None
+ 
+### screens\welcome_screen.py ### 
+import pygame
+from .base_screen import BaseScreen
+from .screen_manager import ScreenManager
+
+class WelcomeScreen(BaseScreen):
+    def __init__(self, screen, game_state):
+        super().__init__(screen, game_state)
+        self.menu_items = ['Start', 'Options', 'Exit']
+        self.selected_item = 0
+        self.options_visible = False
+        self.options = ['Sound: ON', 'Cheat Mode: OFF']
+        self.selected_option = 0
+        
+    def draw(self):
+        self.screen.fill((20, 20, 30))
+        
+        # Draw title
+        self.draw_text("Dungeon Quest", (200, 200, 255), 
+                      (self.screen.get_width()//2, 100))
+        
+        if not self.options_visible:
+            # Draw menu items
+            for i, item in enumerate(self.menu_items):
+                color = (255, 255, 0) if i == self.selected_item else (255, 255, 255)
+                self.draw_text(item, color, 
+                             (self.screen.get_width()//2, 250 + i * 50))
+        else:
+            # Draw options
+            self.options[0] = f"Sound: {'ON' if self.game_state.sound_enabled else 'OFF'}"
+            self.options[1] = f"Cheat Mode: {'ON' if self.game_state.cheat_mode else 'OFF'}"
+            
+            for i, option in enumerate(self.options):
+                color = (255, 255, 0) if i == self.selected_option else (255, 255, 255)
+                self.draw_text(option, color, 
+                             (self.screen.get_width()//2, 250 + i * 50))
+            
+            self.draw_text("Press ESC to return", (150, 150, 150),
+                          (self.screen.get_width()//2, 400))
+
+    def handle_event(self, event):
+        if event.type == pygame.KEYDOWN:
+            if not self.options_visible:
+                if event.key == pygame.K_UP:
+                    self.selected_item = (self.selected_item - 1) % len(self.menu_items)
+                elif event.key == pygame.K_DOWN:
+                    self.selected_item = (self.selected_item + 1) % len(self.menu_items)
+                elif event.key in [pygame.K_RETURN, pygame.K_SPACE]:
+                    if self.menu_items[self.selected_item] == 'Start':
+                        return ScreenManager.get_screen('character_select', self.screen, self.game_state)
+                    elif self.menu_items[self.selected_item] == 'Options':
+                        self.options_visible = True
+                    elif self.menu_items[self.selected_item] == 'Exit':
+                        pygame.quit()
+                        exit()
+            else:
+                if event.key == pygame.K_ESCAPE:
+                    self.options_visible = False
+                elif event.key == pygame.K_UP:
+                    self.selected_option = (self.selected_option - 1) % len(self.options)
+                elif event.key == pygame.K_DOWN:
+                    self.selected_option = (self.selected_option + 1) % len(self.options)
+                elif event.key in [pygame.K_RETURN, pygame.K_SPACE]:
+                    if self.selected_option == 0:  # Sound toggle
+                        self.game_state.toggle_sound()
+                    elif self.selected_option == 1:  # Cheat mode toggle
+                        self.game_state.toggle_cheat_mode()
+        
+        return None 
+### screens\__init__.py ### 
+from .base_screen import BaseScreen 
