@@ -27,11 +27,11 @@ class GameState:
         
         # Achievements
         self.achievements = {
-            "Perfect Victory": False,  # Complete game with full HP
-            "Monster Slayer": False,  # Defeat all monsters
-            "Treasure Hunter": False,  # Collect all items
-            "Speed Runner": False,    # Clear dungeon in minimal moves
-            "Survivor": False         # Win with less than 25% HP
+            "Perfect Victory": False,
+            "Monster Slayer": False,
+            "Treasure Hunter": False,
+            "Speed Runner": False,
+            "Survivor": False
         }
 
     def toggle_sound(self):
@@ -40,7 +40,44 @@ class GameState:
 
     def toggle_cheat_mode(self):
         self.cheat_mode = not self.cheat_mode
+        if self.cheat_mode and self.selected_character:  # Only if character is selected
+            self.hp = 999999
+            self.max_hp = 999999
         return self.cheat_mode
+
+    def update_achievements(self):
+        if self.hp == self.max_hp:
+            self.achievements["Perfect Victory"] = True
+        if self.monsters_defeated >= 3:
+            self.achievements["Monster Slayer"] = True
+        if self.items_collected >= 2:
+            self.achievements["Treasure Hunter"] = True
+        if self.rooms_cleared <= 5:
+            self.achievements["Speed Runner"] = True
+        if self.hp <= self.max_hp * 0.25:
+            self.achievements["Survivor"] = True
+
+    def toggle_sound(self):
+        self.sound_enabled = not self.sound_enabled
+        return self.sound_enabled
+
+    def toggle_cheat_mode(self):
+        self.cheat_mode = not self.cheat_mode
+        if self.cheat_mode:
+            self.hp = 999999
+            self.max_hp = 999999
+
+# combat_screen.py and boss_combat.py - add to _handle_result:
+def _handle_result(self, key):
+    if key == pygame.K_SPACE:
+        if self.monster_hp <= 0:
+            self.game_state.monsters_defeated += 1
+            return self.parent_screen
+        self.turn_phase = 'choose'
+        
+        if not self.game_state.cheat_mode:  # Only take damage if not in cheat mode
+            monster_damage = random.randint(5, 15)
+            self.game_state.hp -= monster_damage
 
     def update_achievements(self):
         if self.hp == self.max_hp:

@@ -20,11 +20,10 @@ class BossCombat(CombatScreen):
                 return VictoryScreen(self.screen, self.game_state)
             self.turn_phase = 'choose'
             
-            # Boss hits harder
-            monster_damage = random.randint(15, 25)
-            self.game_state.hp -= monster_damage
-            
-            death_check = self._check_death()
-            if death_check:
-                return death_check
+            if not self.game_state.cheat_mode:  # Only take damage if not in cheat mode
+                monster_damage = random.randint(15, 25)
+                self.game_state.hp -= monster_damage
+                death_check = self._check_death()
+                if death_check:
+                    return death_check
         return None
