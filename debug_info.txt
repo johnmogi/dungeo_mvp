@@ -1,0 +1,243 @@
+Project Structure: 
+C:\Users\anist\OneDrive\Desktop\DEV\P9\1.bat
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets
+C:\Users\anist\OneDrive\Desktop\DEV\P9\debug_info.txt
+C:\Users\anist\OneDrive\Desktop\DEV\P9\game_state.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\main.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\README.md
+C:\Users\anist\OneDrive\Desktop\DEV\P9\requirements.txt
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens
+C:\Users\anist\OneDrive\Desktop\DEV\P9\__pycache__
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\COMMIT_EDITMSG
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\config
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\description
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\HEAD
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\index
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\info
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\applypatch-msg.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\commit-msg.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\fsmonitor-watchman.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\post-update.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\pre-applypatch.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\pre-commit.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\pre-merge-commit.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\pre-push.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\pre-rebase.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\pre-receive.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\prepare-commit-msg.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\push-to-checkout.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\sendemail-validate.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\hooks\update.sample
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\info\exclude
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs\HEAD
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs\refs
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs\refs\heads
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs\refs\remotes
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs\refs\heads\main
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs\refs\remotes\origin
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\logs\refs\remotes\origin\main
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\07
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\0d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\18
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1a
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\27
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\29
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4a
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\55
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\78
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\82
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8b
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8c
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8f
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\94
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\96
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9a
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9e
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\a3
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ad
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b8
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c1
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c2
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ce
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d3
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\db
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e2
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e9
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ec
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f2
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f5
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\fa
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\info
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\pack
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\07\7a833833f4667bdbd98edf51fd3cbbdef70f80
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\0d\db84376975d92429a66821f9c5db3759f49bfe
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\18\e13f59bf2ac685b3fc42bf92c41e17600a3df1
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1a\f96b145228aa68a65ce7507fc1fd590d4872ed
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\27\3f4db03294c45ddb62b3ed52a9f1b81e87cb20
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\29\16528d14965bf4a9f3d8bfece6f1fbccbb9742
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4a\e891d621a1c9a6813ff2e34a9e9e9721c9a7df
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\55\86ac5a5109ee426911c1deab1e22642210d0db
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d\3a5739138e8c9881c2184cc7da3e9f04b6c26b
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72\b286be60f55ad75029ff9da3bf96a7fb485022
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\78\98f5597e0b9bafd9dc473fdb2c9141b6b4ae85
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\82\bda11e7a761b3a2c6a66ebd47430f9557f4720
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8b\137891791fe96927ad78e64b0aad7bded08bdc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8c\59d2780be20a8ff72a03cf08c75a205fc7c557
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8f\4e0f870196f26278ed090da9916181771599b1
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\94\c7147a3a5ac6145d8525c8337c00e1e90c0db9
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\96\dd3385077384038c4ca97caf08ab8442c27ecf
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9a\bef085f675785a317cda33c6a28af6dc27f27f
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9e\52811fd0bc9374b3454a45bbefda3dfbc6d00e
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\a3\422c50066875e6521d25f58fafb844a8f58e5e
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ad\063b55d7de2c8f8976a532ee4e959313273682
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b8\570801755bfda7f0e36f62dc1fd45491781289
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba\2b6288055832064ea7de0d78be37cabfa66331
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba\7b89a7c5a5a7a806cee590fa9f0562453f5f57
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c1\573ba7627090faf6d9c2d6bd116f48e84f0e4f
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c2\64e04f7cd5745213a44cf60797dc76bd1d47ec
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc\0c866b4731e482dc7a2de52a81760cfb9d3100
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc\bfa316c37e261a8a05c99ad4e2ee9e0758e497
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ce\22e693cd1d4fb1de34459995bf6e1d0bb5fe80
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d3\e98d743bfbe5f0804ea06d1d91909d84f3cd7d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\db\6dbc670848ee98e228c86b04d4225d70b16d56
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e2\885041e1284a3ce31bf0dfc7d4f4e22a29ae75
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\4983f0ef2d600803e51dbd9bfb112bc5bdbc73
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e9\b5b63cbaaa37a058206f733c692661630cb12c
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ec\54bab3c350040a97cba2ea92d532aa96d58f02
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f2\632aede8b7f01e19817ab2afda1411cad75547
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f5\89a7e380cdce7fd82c3793c6ee4548ad78fd62
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\fa\e3ed7c027ae5ded97a47e14d9d5f2cff0bdd54
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\heads
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\remotes
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\tags
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\heads\main
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\remotes\origin
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\remotes\origin\main
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\dungeo.jpg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\video
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\cleric.jpg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\dungeon_tile.jpg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\elf.jpg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\fighter.png
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\mage.png
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\main.jpg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\monster.svg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\player.svg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\README.md
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\rogue.jpg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\trap.svg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\treasure.svg
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\warrior.png
+C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\video\TL.mp4
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\base_screen.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\character_select.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\game_board.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\loading_screen.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\welcome_screen.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__init__.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\base_screen.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\character_select.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\game_board.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\loading_screen.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\welcome_screen.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\__init__.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\__pycache__\game_state.cpython-310.pyc
+ 
+File Contents: 
+### game_state.py ### 
+class GameState:
+    def __init__(self):
+        self.sound_enabled = True
+        self.cheat_mode = False
+        self.selected_character = None
+        self.hp = 100
+        self.max_hp = 100
+        self.attack = 20
+        self.defense = 15
+        self.potions = 2
+        self.current_position = (0, 0)
+        self.rooms_cleared = 0
+        self.monsters_defeated = 0
+        self.items_collected = 0
+        self.start_time = None
+        self.board = [[None for _ in range(3)] for _ in range(3)]
+        self.achievements = {
+            "First Blood": False,
+            "Potion Master": False,
+            "Perfect Run": False
+        }
+
+    def toggle_sound(self):
+        self.sound_enabled = not self.sound_enabled
+
+    def toggle_cheat_mode(self):
+        self.cheat_mode = not self.cheat_mode
+
+    def reset(self):
+        self.__init__()
+ 
+### main.py ### 
+import pygame
+import sys
+from screens.loading_screen import LoadingScreen
+from game_state import GameState
+
+class Game:
+    def __init__(self):
+        pygame.init()
+        self.screen_width = 800
+        self.screen_height = 600
+        self.screen = pygame.display.set_mode((self.screen_width, self.screen_height))
+        pygame.display.set_caption("Dungeon Quest")
+        
+        # Initialize game state
+        self.game_state = GameState()
+        
+        # Initialize with loading screen
+        self.current_screen = LoadingScreen(self.screen, self.game_state)
+        
+        # Set up game clock
+        self.clock = pygame.time.Clock()
+        self.FPS = 60
+
+    def run(self):
+        running = True
+        while running:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    running = False
+                
+                # Handle events for current screen
+                next_screen = self.current_screen.handle_event(event)
+                if next_screen:
+                    self.current_screen = next_screen
+
+            # Update current screen
+            next_screen = self.current_screen.update()
+            if next_screen:
+                self.current_screen = next_screen
+            
+            # Draw current screen
+            self.current_screen.draw()
+            
+            pygame.display.flip()
+            self.clock.tick(self.FPS)
+
+        pygame.quit()
+        sys.exit()
+
+if __name__ == "__main__":
+    game = Game()
+    game.run()
+ 

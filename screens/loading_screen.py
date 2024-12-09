@@ -1,70 +1,35 @@
 import pygame
-import cv2
-import os
-import numpy as np
-from screens.welcome_screen import WelcomeScreen
+import time
+from .base_screen import BaseScreen
+from .welcome_screen import WelcomeScreen
 
-class LoadingScreen:
+class LoadingScreen(BaseScreen):
     def __init__(self, screen, game_state):
-        self.screen = screen
-        self.game_state = game_state
-        self.video_path = os.path.join("assets", "video", "TL.mp4")
-        self.cap = cv2.VideoCapture(self.video_path)
-        self.clock = pygame.time.Clock()
-        self.start_time = pygame.time.get_ticks()
-        self.duration = 5000  # 5 seconds in milliseconds
-        self.progress = 0
-        self.skip_button = pygame.Rect(self.screen.get_width() - 100, 10, 90, 30)
-        self.font = pygame.font.Font(None, 36)
-
-    def handle_event(self, event):
-        if event.type == pygame.MOUSEBUTTONDOWN:
-            if self.skip_button.collidepoint(event.pos):
-                self.cap.release()
-                return WelcomeScreen(self.screen, self.game_state)
-        return None
+        super().__init__(screen, game_state)
+        self.start_time = time.time()
+        self.duration = 5
+        self.bar_width = 400
+        self.bar_height = 20
+        self.bar_x = (screen.get_width() - self.bar_width) // 2
+        self.bar_y = screen.get_height() - 100
 
     def update(self):
-        current_time = pygame.time.get_ticks()
-        self.progress = min((current_time - self.start_time) / self.duration, 1.0)
-        
-        if self.progress >= 1.0:
-            self.cap.release()
+        elapsed_time = time.time() - self.start_time
+        if elapsed_time >= self.duration:
             return WelcomeScreen(self.screen, self.game_state)
         return None
 
     def draw(self):
-        # Clear screen
         self.screen.fill((0, 0, 0))
-        
-        # Read and display video frame
-        ret, frame = self.cap.read()
-        if ret:
-            # If we reached the end of the video, loop it
-            if frame is None:
-                self.cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
-                ret, frame = self.cap.read()
-            
-            # Convert frame from BGR to RGB
-            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            frame = cv2.resize(frame, (self.screen.get_width(), self.screen.get_height()))
-            surface = pygame.surfarray.make_surface(frame.swapaxes(0, 1))
-            self.screen.blit(surface, (0, 0))
-        
-        # Draw progress bar
-        bar_width = self.screen.get_width() - 100
-        bar_height = 20
-        bar_x = 50
-        bar_y = self.screen.get_height() - 50
-        
-        # Background bar
+        progress = min((time.time() - self.start_time) / self.duration, 1)
         pygame.draw.rect(self.screen, (100, 100, 100), 
-                        (bar_x, bar_y, bar_width, bar_height))
-        # Progress bar
+                        (self.bar_x, self.bar_y, self.bar_width, self.bar_height))
         pygame.draw.rect(self.screen, (255, 255, 255),
-                        (bar_x, bar_y, bar_width * self.progress, bar_height))
-        
-        # Draw skip button
-        pygame.draw.rect(self.screen, (200, 200, 200), self.skip_button)
-        skip_text = self.font.render("Skip", True, (0, 0, 0))
-        self.screen.blit(skip_text, (self.skip_button.x + 10, self.skip_button.y + 5))
+                        (self.bar_x, self.bar_y, int(self.bar_width * progress), self.bar_height))
+        self.draw_text("Loading...", (255, 255, 255), 
+                      (self.screen.get_width() // 2, self.bar_y - 30))
+
+    def handle_event(self, event):
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+            return WelcomeScreen(self.screen, self.game_state)
+        return None
