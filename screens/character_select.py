@@ -1,53 +1,63 @@
 import pygame
 from .base_screen import BaseScreen
-from .game_board import GameBoard
+from .screen_manager import ScreenManager
 
 class CharacterSelect(BaseScreen):
     def __init__(self, screen, game_state):
         super().__init__(screen, game_state)
-        self.characters = ['Warrior', 'Archer', 'Mage']
-        self.selected = 0
-        self.char_stats = {
-            'Warrior': {'hp': 120, 'atk': 15, 'def': 20},
-            'Archer': {'hp': 100, 'atk': 20, 'def': 15},
-            'Mage': {'hp': 80, 'atk': 25, 'def': 10}
+        self.characters = {
+            'Warrior': {'hp': 120, 'attack': 15, 'defense': 20},
+            'Archer': {'hp': 100, 'attack': 20, 'defense': 15},
+            'Mage': {'hp': 80, 'attack': 25, 'defense': 10}
         }
-
+        self.selected = 0
+        self.char_list = list(self.characters.keys())
+        
     def draw(self):
-        self.screen.fill((0, 0, 0))
+        self.screen.fill((20, 20, 30))
         
-        title_pos = (self.screen.get_width() // 2, 100)
-        self.draw_text("Select Your Character", (255, 255, 255), title_pos)
+        # Draw title
+        self.draw_text("Select Your Character", (200, 200, 255), 
+                      (self.screen.get_width()//2, 100))
         
-        for i, char in enumerate(self.characters):
+        # Draw character options
+        for i, char in enumerate(self.char_list):
             color = (255, 255, 0) if i == self.selected else (255, 255, 255)
-            pos = (200 + i * 200, 250)
-            self.draw_text(char, color, pos)
+            self.draw_text(char, color, 
+                          (self.screen.get_width()//2, 200 + i * 50))
             
+            # Draw stats if selected
             if i == self.selected:
-                stats = self.char_stats[char]
-                stat_y = 300
-                for stat, value in stats.items():
-                    self.draw_text(f"{stat.upper()}: {value}", (200, 200, 200), 
-                                 (self.screen.get_width() // 2, stat_y))
-                    stat_y += 30
-
-        self.draw_text("Press ENTER to confirm", (255, 255, 255), 
-                      (self.screen.get_width() // 2, 500))
+                stats = self.characters[char]
+                stat_text = [
+                    f"HP: {stats['hp']}",
+                    f"Attack: {stats['attack']}",
+                    f"Defense: {stats['defense']}"
+                ]
+                for j, text in enumerate(stat_text):
+                    self.draw_text(text, (150, 150, 150),
+                                  (self.screen.get_width()//2, 350 + j * 30))
+        
+        # Draw controls
+        self.draw_text("Press ENTER or SPACE to select", (150, 150, 150),
+                      (self.screen.get_width()//2, 500))
 
     def handle_event(self, event):
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_LEFT:
-                self.selected = (self.selected - 1) % len(self.characters)
-            elif event.key == pygame.K_RIGHT:
-                self.selected = (self.selected + 1) % len(self.characters)
-            elif event.key == pygame.K_RETURN:
-                char = self.characters[self.selected]
-                stats = self.char_stats[char]
+            if event.key == pygame.K_UP:
+                self.selected = (self.selected - 1) % len(self.char_list)
+            elif event.key == pygame.K_DOWN:
+                self.selected = (self.selected + 1) % len(self.char_list)
+            elif event.key in [pygame.K_RETURN, pygame.K_SPACE]:
+                char = self.char_list[self.selected]
+                stats = self.characters[char]
+                
+                # Set character stats in game state
                 self.game_state.selected_character = char
                 self.game_state.hp = stats['hp']
                 self.game_state.max_hp = stats['hp']
-                self.game_state.attack = stats['atk']
-                self.game_state.defense = stats['def']
-                return GameBoard(self.screen, self.game_state)
+                self.game_state.attack = stats['attack']
+                self.game_state.defense = stats['defense']
+                
+                return ScreenManager.get_screen('game_board', self.screen, self.game_state)
         return None

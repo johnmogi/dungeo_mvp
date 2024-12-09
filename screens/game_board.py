@@ -3,6 +3,8 @@ import pygame
 import random
 from .base_screen import BaseScreen
 from .combat_screen import CombatScreen
+from .game_over_screen import GameOverScreen
+from .victory_screen import VictoryScreen
 
 class GameBoard(BaseScreen):
     def __init__(self, screen, game_state):
@@ -79,6 +81,12 @@ class GameBoard(BaseScreen):
         self.draw_text(controls, (150, 150, 150),
                       (self.screen.get_width()//2, self.screen.get_height() - 30))
 
+    def _check_death(self):
+        if self.game_state.hp <= 0:
+            self.game_state.hp = 0
+            return GameOverScreen(self.screen, self.game_state)
+        return None
+
     def handle_event(self, event):
         if event.type == pygame.KEYDOWN:
             x, y = self.game_state.current_position
@@ -104,6 +112,7 @@ class GameBoard(BaseScreen):
         cell = self.game_state.board[x][y]
         
         self.game_state.current_position = new_pos
+        self.game_state.rooms_cleared += 1
         
         if cell == 'M':
             combat_screen = CombatScreen(self.screen, self.game_state)
@@ -117,7 +126,11 @@ class GameBoard(BaseScreen):
             damage = 10
             self.game_state.hp = max(0, self.game_state.hp - damage)
             self.game_state.board[x][y] = None
+            
+            death_check = self._check_death()
+            if death_check:
+                return death_check
         elif cell == 'E':
-            # Return victory screen when implemented
-            pass
+            return VictoryScreen(self.screen, self.game_state)
+            
         return None
