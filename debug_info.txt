@@ -47,28 +47,39 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\17
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\18
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1a
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1b
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\20
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\21
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\26
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\27
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\29
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\2c
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\2e
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\36
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\38
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\3d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\3f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\41
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\48
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4a
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\55
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\57
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\58
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5c
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5e
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\63
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\64
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\65
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\67
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\68
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\6c
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\6e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\71
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\78
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\7d
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\7e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\80
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\82
@@ -78,6 +89,7 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\94
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\96
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\99
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9a
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\a3
@@ -89,6 +101,7 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b8
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bb
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\be
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bf
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c2
@@ -99,7 +112,10 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ce
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d3
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d7
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d9
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\db
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\dd
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\df
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e2
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3
@@ -122,31 +138,42 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\17\e44ae0d41f65e1c6ec33b33f7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\18\e13f59bf2ac685b3fc42bf92c41e17600a3df1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1a\f96b145228aa68a65ce7507fc1fd590d4872ed
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1b\3bd3f73cfdc01651e444a58fd958592d09f7b4
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\1f\2c969e05a900d20b4a3c30dc62b166c074fb25
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\20\66633c124e9221b3a8cf2c73fe906b9fc88f8f
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\21\7076b2b025045cdf2d7b01783470f8e2a0f7e8
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\26\42061f32c7af4aa4ae6217c8999224174049c5
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\27\3f4db03294c45ddb62b3ed52a9f1b81e87cb20
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\29\16528d14965bf4a9f3d8bfece6f1fbccbb9742
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\2c\85771c03b2ba2cfccbdaadb61f21771645fff9
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\2e\66f37a799144f0b0a76fa081c44566847943f5
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\36\0b4f9a22471fe55748c15949697300ce214bcd
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\38\35e23a1c6d110679f27d82bd920b99519e4850
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\38\f365f7025e5f2cc9e3fc0534203e9fe5865795
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\3d\880a87781c6ffdbf6a4449fa1771809a7ff261
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\3f\5c6832e46d1192f828c2ed90b3bd9b291bdb87
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\41\9784faf115291cd2f9749e070ec2a306d355e3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\48\6912cb07b32a1c864388980942c6e41e64ae48
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4a\e891d621a1c9a6813ff2e34a9e9e9721c9a7df
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\4b\0d706236e4d66f656a1605377b00c48d24665c
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\55\86ac5a5109ee426911c1deab1e22642210d0db
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\57\a5e57a29b0df72183103c76b36259f491fac8d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\58\7cbb36a495b61d64dab772374f1d856200d919
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5c\a549d3156a9341a37abce7aac562923959c0d3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d\3a5739138e8c9881c2184cc7da3e9f04b6c26b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5d\3ea6c39f21500ef69707e98b6d1bf4669db381
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\5e\6507fec0f977bd98d0a996a6a55a006cda3ae3
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\63\b83772cd0d67ab72828e9cfc04df8d10f18d37
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\64\7054c0506677c04f8ede23884f41dd943abeb0
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\65\fd08944a541afe558eac7b82b46e0489aceadc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\67\7602e8793039c5f969ca0be3e1fd1139fe3929
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\68\3a99c566c1a7f140b84ed9a436735d84d2ea57
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\6c\72b09b3e6963a3a6ca6bede344605cbaa9f3e3
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\6e\42edc893334a2688cee139d33d595ff7dfd45a
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\71\adfee90ad2825cb60dae90318650cecb560d82
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72\8a2764bf48cc4c06975a4dea9f2aebc1037db2
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\72\b286be60f55ad75029ff9da3bf96a7fb485022
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\78\98f5597e0b9bafd9dc473fdb2c9141b6b4ae85
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\7d\473b72b8c6778d85ab8819722b388e4ea03e36
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\7e\3f104590e74d8c3d6d85b5757eda6f63f2093b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\80\eb57fad6e9da675cf66c7cc29254a4319d1117
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\82\bda11e7a761b3a2c6a66ebd47430f9557f4720
@@ -158,19 +185,23 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8e\d06df5f8a403f10a8c89ec970
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\8f\4e0f870196f26278ed090da9916181771599b1
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\94\c7147a3a5ac6145d8525c8337c00e1e90c0db9
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\96\dd3385077384038c4ca97caf08ab8442c27ecf
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\99\acbf55324033729382daa85e64f6333ef7af24
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9a\bef085f675785a317cda33c6a28af6dc27f27f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\9e\52811fd0bc9374b3454a45bbefda3dfbc6d00e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\a3\422c50066875e6521d25f58fafb844a8f58e5e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ac\1070aaf7cc76f2ebd70ca26193119d4814cd2f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ad\063b55d7de2c8f8976a532ee4e959313273682
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ad\fda0849c1f3b917b726bdc6761de21c3e90738
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b5\90c85f6d2f4240007d8ceac0c2aeb7d848b9b9
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b6\b27ef6aa0b937bdec5a0d6f2481a8b803143c8
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b7\6fbddb6503665f8f34832ab9f78c5b6d3cec4b
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b7\ba2f1d3c9f18e388ce4f15ec2332ab51e899aa
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b8\570801755bfda7f0e36f62dc1fd45491781289
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\b8\ad58176f4b1a58b3d43f8b4968b2ad97cb11b3
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba\2b6288055832064ea7de0d78be37cabfa66331
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ba\7b89a7c5a5a7a806cee590fa9f0562453f5f57
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bb\dfc19cfd357b90be866ce3801cd657dd5b4a93
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\be\d2ae00fc0d97416536217867d4df4a4c000749
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\bf\11f3834528fd8792ffa5b0602bab1ee9c4f1c7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c1\573ba7627090faf6d9c2d6bd116f48e84f0e4f
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\c2\64e04f7cd5745213a44cf60797dc76bd1d47ec
@@ -182,12 +213,18 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\cc\bfa316c37e261a8a05c99ad4e
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ce\22e693cd1d4fb1de34459995bf6e1d0bb5fe80
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d1\1829da806665bbf41326c0231d5aeb60372172
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d3\e98d743bfbe5f0804ea06d1d91909d84f3cd7d
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d7\fa515881583beeffc670320133ac9e124e0a39
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\d9\79b501ca96fffd72f5e27c8ed0096df3afc083
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\db\6dbc670848ee98e228c86b04d4225d70b16d56
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\dd\10859b9bd4a17d20784bfbc07312dd74458493
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\df\0ac7e27c186ce4352731a9640edac5f6959831
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e2\885041e1284a3ce31bf0dfc7d4f4e22a29ae75
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\0ac7b64858754eb1b1ebaeec4e0785ec9b9fa8
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\1bef9aaf69cd3a3c0d468d74ff44826a2abdc7
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\4983f0ef2d600803e51dbd9bfb112bc5bdbc73
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\9a00239b857a7317b286847f8cb0aa3ff1a3bd
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\d83071cd8a4d55058ad99d716bd6e8648a2203
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\f57165856a0ca944f5c05d21b9e565e4970700
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e3\fdbcdcc44179dd0edd8a2e2f7c495e533cc5df
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e8\edb7a67328719f6afab788082074c299691c48
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\e9\b5b63cbaaa37a058206f733c692661630cb12c
@@ -199,6 +236,7 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ef\513695ad0b1dff300aef6eebf
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f2\632aede8b7f01e19817ab2afda1411cad75547
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f5\89a7e380cdce7fd82c3793c6ee4548ad78fd62
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f8\329cf4a7985751a94afa6adceb3c5ebb871f27
+C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\f8\b49e125bc44c90cabc798365258c97e9236171
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\fa\e3ed7c027ae5ded97a47e14d9d5f2cff0bdd54
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\objects\ff\ad59064330893e249d216e9b9b5ba045239a52
 C:\Users\anist\OneDrive\Desktop\DEV\P9\.git\refs\heads
@@ -225,6 +263,7 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\treasure.svg
 C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\images\warrior.png
 C:\Users\anist\OneDrive\Desktop\DEV\P9\assets\video\TL.mp4
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\base_screen.py
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\boss_combat.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\character_select.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\combat_screen.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\game_board.py
@@ -236,6 +275,7 @@ C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\welcome_screen.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__init__.py
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\base_screen.cpython-310.pyc
+C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\boss_combat.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\character_select.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\combat_screen.cpython-310.pyc
 C:\Users\anist\OneDrive\Desktop\DEV\P9\screens\__pycache__\game_board.cpython-310.pyc
@@ -278,11 +318,11 @@ class GameState:
         
         # Achievements
         self.achievements = {
-            "Perfect Victory": False,  # Complete game with full HP
-            "Monster Slayer": False,  # Defeat all monsters
-            "Treasure Hunter": False,  # Collect all items
-            "Speed Runner": False,    # Clear dungeon in minimal moves
-            "Survivor": False         # Win with less than 25% HP
+            "Perfect Victory": False,
+            "Monster Slayer": False,
+            "Treasure Hunter": False,
+            "Speed Runner": False,
+            "Survivor": False
         }
 
     def toggle_sound(self):
@@ -291,7 +331,44 @@ class GameState:
 
     def toggle_cheat_mode(self):
         self.cheat_mode = not self.cheat_mode
+        if self.cheat_mode and self.selected_character:  # Only if character is selected
+            self.hp = 999999
+            self.max_hp = 999999
         return self.cheat_mode
+
+    def update_achievements(self):
+        if self.hp == self.max_hp:
+            self.achievements["Perfect Victory"] = True
+        if self.monsters_defeated >= 3:
+            self.achievements["Monster Slayer"] = True
+        if self.items_collected >= 2:
+            self.achievements["Treasure Hunter"] = True
+        if self.rooms_cleared <= 5:
+            self.achievements["Speed Runner"] = True
+        if self.hp <= self.max_hp * 0.25:
+            self.achievements["Survivor"] = True
+
+    def toggle_sound(self):
+        self.sound_enabled = not self.sound_enabled
+        return self.sound_enabled
+
+    def toggle_cheat_mode(self):
+        self.cheat_mode = not self.cheat_mode
+        if self.cheat_mode:
+            self.hp = 999999
+            self.max_hp = 999999
+
+# combat_screen.py and boss_combat.py - add to _handle_result:
+def _handle_result(self, key):
+    if key == pygame.K_SPACE:
+        if self.monster_hp <= 0:
+            self.game_state.monsters_defeated += 1
+            return self.parent_screen
+        self.turn_phase = 'choose'
+        
+        if not self.game_state.cheat_mode:  # Only take damage if not in cheat mode
+            monster_damage = random.randint(5, 15)
+            self.game_state.hp -= monster_damage
 
     def update_achievements(self):
         if self.hp == self.max_hp:
@@ -360,22 +437,61 @@ if __name__ == "__main__":
     game.run()
  
 ### screens\base_screen.py ### 
+# screens/base_screen.py
 import pygame
 
 class BaseScreen:
     def __init__(self, screen, game_state):
         self.screen = screen
         self.game_state = game_state
-        self.font = pygame.font.Font(None, 36)
+        try:
+            self.font = pygame.font.SysFont('segoe ui emoji', 36)  # Windows emoji font
+        except:
+            self.font = pygame.font.Font(None, 36)  # Fallback
 
-    def update(self): return None
-    def draw(self): pass
-    def handle_event(self, event): return None
+    def update(self):
+        return None
+        
+    def draw(self):
+        pass
+        
+    def handle_event(self, event):
+        return None
 
     def draw_text(self, text, color, center_pos):
         text_surface = self.font.render(text, True, color)
         text_rect = text_surface.get_rect(center=center_pos)
         self.screen.blit(text_surface, text_rect) 
+### screens\boss_combat.py ### 
+import pygame
+import random
+from .combat_screen import CombatScreen
+from .victory_screen import VictoryScreen
+
+class BossCombat(CombatScreen):
+    def __init__(self, screen, game_state):
+        super().__init__(screen, game_state)
+        self.monster_hp = 100
+        self.monster_max_hp = 100
+        
+    def _calculate_damage(self):
+        base_damage = super()._calculate_damage()
+        return int(base_damage * 0.7)  # Boss takes less damage
+
+    def _handle_result(self, key):
+        if key == pygame.K_SPACE:
+            if self.monster_hp <= 0:
+                self.game_state.monsters_defeated += 1
+                return VictoryScreen(self.screen, self.game_state)
+            self.turn_phase = 'choose'
+            
+            if not self.game_state.cheat_mode:  # Only take damage if not in cheat mode
+                monster_damage = random.randint(15, 25)
+                self.game_state.hp -= monster_damage
+                death_check = self._check_death()
+                if death_check:
+                    return death_check
+        return None 
 ### screens\character_select.py ### 
 import pygame
 from .base_screen import BaseScreen
@@ -457,7 +573,8 @@ class CombatScreen(BaseScreen):
        self.player_choice = None
        self.monster_choice = None
        self.last_result = None
-       self.turn_phase = 'choose'  # 'choose', 'result'
+       self.turn_phase = 'choose'
+       self.combat_log = []  # Add this
 
    def draw(self):
        self.screen.fill((20, 20, 30))
@@ -470,6 +587,9 @@ class CombatScreen(BaseScreen):
            self._draw_combat_options()
        else:
            self._draw_combat_result()
+           for i, msg in enumerate(self.combat_log[-3:]):
+               self.draw_text(msg, (200, 200, 200),
+                (self.screen.get_width()//2, 400 + i * 30))
 
    def _draw_health_bars(self):
        # Player health
@@ -538,30 +658,48 @@ class CombatScreen(BaseScreen):
            return GameOverScreen(self.screen, self.game_state)
        return None
 
-   def _handle_result(self, key):
-       if key == pygame.K_SPACE:
-           if self.monster_hp <= 0:
-               self.game_state.monsters_defeated += 1
-               return self.parent_screen
-           self.turn_phase = 'choose'
-           
-           # Monster's turn
-           monster_damage = random.randint(5, 15)
-           self.game_state.hp -= monster_damage
-           
-           death_check = self._check_death()
-           if death_check:
-               return death_check
-               
-       return None
+def _handle_result(self, key):
+    if key == pygame.K_SPACE:
+        if self.monster_hp <= 0:
+            self.game_state.monsters_defeated += 1
+            return self.parent_screen
+        self.turn_phase = 'choose'
+        
+        if not self.game_state.cheat_mode:
+            monster_damage = random.randint(5, 15)
+            self.game_state.hp -= monster_damage
+            self.combat_log.append(f"Monster dealt {monster_damage} damage!")
+            
+            death_check = self._check_death()
+            if death_check:
+                return death_check
+    return None
 
-   def _calculate_damage(self):
-       if self.player_choice == self.monster_choice:
-           return 10
-       wins = {'R': 'S', 'P': 'R', 'S': 'P'}
-       if wins[self.player_choice] == self.monster_choice:
-           return 20
-       return 5 
+
+    def _calculate_damage(self):
+        if self.player_choice == self.monster_choice:
+            return 10
+        wins = {'R': 'S', 'P': 'R', 'S': 'P'}
+        if wins[self.player_choice] == self.monster_choice:
+            return 20
+        return 5
+
+    def _handle_result(self, key):
+        if key == pygame.K_SPACE:
+            if self.monster_hp <= 0:
+                self.game_state.monsters_defeated += 1
+                return self.parent_screen
+            self.turn_phase = 'choose'
+            
+            if not self.game_state.cheat_mode:
+                monster_damage = random.randint(5, 15)
+                self.game_state.hp -= monster_damage
+                self.combat_log.append(f"Monster dealt {monster_damage} damage!")
+                
+                death_check = self._check_death()
+                if death_check:
+                    return death_check
+        return None 
 ### screens\game_board.py ### 
 # screens/game_board.py 
 import pygame
@@ -570,6 +708,7 @@ from .base_screen import BaseScreen
 from .combat_screen import CombatScreen
 from .game_over_screen import GameOverScreen
 from .victory_screen import VictoryScreen
+from .boss_combat import BossCombat
 
 class GameBoard(BaseScreen):
     def __init__(self, screen, game_state):
@@ -579,15 +718,28 @@ class GameBoard(BaseScreen):
         self.margin_x = (screen.get_width() - self.cell_size * self.grid_size) // 2
         self.margin_y = 100
         self.revealed = [[False] * self.grid_size for _ in range(self.grid_size)]
-        self.revealed[0][0] = True  # Start room is visible
+        self.revealed[0][0] = True
         
         if not any(any(cell for cell in row) for row in game_state.board):
             self._generate_board()
 
+    def _get_cell_color(self, cell, pos):
+        if pos == self.game_state.current_position:
+            text = '👤'
+            return text, (255, 255, 0)
+        symbols = {
+            'S': ('S', (0, 255, 0)),
+            'E': ('👿', (255, 0, 0)),
+            'M': ('👾', (200, 50, 50)),
+            'I': ('💎', (50, 200, 200)),
+            'T': ('💀', (200, 200, 50))
+        }
+        return symbols.get(cell, ('?', (255, 255, 255)))
+
     def _generate_board(self):
         self.game_state.board[0][0] = 'S'
         self.game_state.board[2][2] = 'E'
-        events = ['M', 'I', 'T', 'M', 'I']  # More monsters and items
+        events = ['M', 'I', 'T', 'M', 'I']
         for i in range(self.grid_size):
             for j in range(self.grid_size):
                 if (i,j) not in [(0,0), (2,2)]:
@@ -612,27 +764,15 @@ class GameBoard(BaseScreen):
                 if self.revealed[i][j]:
                     cell = self.game_state.board[i][j]
                     if cell:
-                        color = self._get_cell_color(cell, (i,j))
-                        text = self.font.render(cell, True, color)
-                        text_rect = text.get_rect(center=(
+                        text, color = self._get_cell_color(cell, (i,j))
+                        text_surface = self.font.render(text, True, color)
+                        text_rect = text_surface.get_rect(center=(
                             x + self.cell_size//2,
                             y + self.cell_size//2
                         ))
-                        self.screen.blit(text, text_rect)
+                        self.screen.blit(text_surface, text_rect)
 
         self._draw_ui()
-
-    def _get_cell_color(self, cell, pos):
-        if pos == self.game_state.current_position:
-            return (255, 255, 0)
-        colors = {
-            'S': (0, 255, 0),
-            'E': (255, 0, 0),
-            'M': (200, 50, 50),
-            'I': (50, 200, 200),
-            'T': (200, 200, 50)
-        }
-        return colors.get(cell, (255, 255, 255))
 
     def _draw_ui(self):
         self.draw_text("Dungeon Quest", (200, 200, 255), 
@@ -668,7 +808,6 @@ class GameBoard(BaseScreen):
                 
             if new_pos:
                 return self._handle_movement(new_pos)
-                
         return None
 
     def _handle_movement(self, new_pos):
@@ -696,7 +835,9 @@ class GameBoard(BaseScreen):
             if death_check:
                 return death_check
         elif cell == 'E':
-            return VictoryScreen(self.screen, self.game_state)
+            boss_screen = BossCombat(self.screen, self.game_state)
+            boss_screen.parent_screen = self
+            return boss_screen
             
         return None 
 ### screens\game_over_screen.py ### 

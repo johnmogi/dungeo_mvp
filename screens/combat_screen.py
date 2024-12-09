@@ -1,4 +1,3 @@
-# screens/combat_screen.py
 import pygame
 import random
 from .base_screen import BaseScreen
@@ -11,29 +10,27 @@ class CombatScreen(BaseScreen):
        self.selected = 0
        self.monster_hp = 50
        self.monster_max_hp = 50
-       self.player_choice = None
+       self.player_choice = None 
        self.monster_choice = None
        self.last_result = None
-       self.turn_phase = 'choose'  # 'choose', 'result'
+       self.turn_phase = 'choose'
+       self.combat_log = []
 
    def draw(self):
        self.screen.fill((20, 20, 30))
-
-       # Draw health bars
        self._draw_health_bars()
-
-       # Draw combat options
+       
        if self.turn_phase == 'choose':
            self._draw_combat_options()
        else:
            self._draw_combat_result()
+           for i, msg in enumerate(self.combat_log[-3:]):
+               self.draw_text(msg, (200, 200, 200),
+                   (self.screen.get_width()//2, 400 + i * 30))
 
    def _draw_health_bars(self):
-       # Player health
        self.draw_text(f"Hero HP: {self.game_state.hp}/{self.game_state.max_hp}", 
                      (255, 255, 255), (200, 50))
-       
-       # Monster health
        self.draw_text(f"Monster HP: {self.monster_hp}/{self.monster_max_hp}", 
                      (255, 255, 255), (600, 50))
 
@@ -65,7 +62,7 @@ class CombatScreen(BaseScreen):
            self.selected = (self.selected - 1) % 5
        elif key == pygame.K_DOWN:
            self.selected = (self.selected + 1) % 5
-       elif key in [pygame.K_RETURN, pygame.K_SPACE]:  # Accept both keys
+       elif key in [pygame.K_RETURN, pygame.K_SPACE]:
            if self.selected < 3:  # RPS choice
                self.player_choice = self.choices[self.selected]
                self.monster_choice = random.choice(self.choices)
@@ -89,6 +86,14 @@ class CombatScreen(BaseScreen):
                    self.turn_phase = 'result'
        return None
 
+   def _calculate_damage(self):
+       if self.player_choice == self.monster_choice:
+           return 10
+       wins = {'R': 'S', 'P': 'R', 'S': 'P'}
+       if wins[self.player_choice] == self.monster_choice:
+           return 20
+       return 5
+
    def _check_death(self):
        if self.game_state.hp <= 0:
            self.game_state.hp = 0
@@ -102,20 +107,12 @@ class CombatScreen(BaseScreen):
                return self.parent_screen
            self.turn_phase = 'choose'
            
-           # Monster's turn
-           monster_damage = random.randint(5, 15)
-           self.game_state.hp -= monster_damage
-           
-           death_check = self._check_death()
-           if death_check:
-               return death_check
+           if not self.game_state.cheat_mode:
+               monster_damage = random.randint(5, 15)
+               self.game_state.hp -= monster_damage
+               self.combat_log.append(f"Monster dealt {monster_damage} damage!")
                
+               death_check = self._check_death()
+               if death_check:
+                   return death_check
        return None
-
-   def _calculate_damage(self):
-       if self.player_choice == self.monster_choice:
-           return 10
-       wins = {'R': 'S', 'P': 'R', 'S': 'P'}
-       if wins[self.player_choice] == self.monster_choice:
-           return 20
-       return 5
