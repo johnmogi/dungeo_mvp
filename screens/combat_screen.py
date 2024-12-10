@@ -7,6 +7,7 @@ class CombatScreen(BaseScreen):
    def __init__(self, screen, game_state):
        super().__init__(screen, game_state)
        self.choices = ['R', 'P', 'S']
+       self.choice_emojis = {'R': '🪨', 'P': '📄', 'S': '✂️'}
        self.selected = 0
        self.monster_hp = 50
        self.monster_max_hp = 50
@@ -35,7 +36,11 @@ class CombatScreen(BaseScreen):
                      (255, 255, 255), (600, 50))
 
    def _draw_combat_options(self):
-       options = ['Rock', 'Paper', 'Scissors', 'Use Potion', 'Flee']
+       options = [f'Rock {self.choice_emojis["R"]}', 
+                 f'Paper {self.choice_emojis["P"]}', 
+                 f'Scissors {self.choice_emojis["S"]}', 
+                 'Use Potion 🧪', 
+                 'Flee 🏃']
        for i, option in enumerate(options):
            color = (255, 255, 0) if i == self.selected else (255, 255, 255)
            self.draw_text(option, color, 
@@ -68,21 +73,23 @@ class CombatScreen(BaseScreen):
                self.monster_choice = random.choice(self.choices)
                damage = self._calculate_damage()
                self.monster_hp -= damage
-               self.last_result = f"You chose {self.player_choice}, Monster chose {self.monster_choice}\n"
-               self.last_result += f"Damage dealt: {damage}"
+               self.last_result = f"You chose {self.choice_emojis[self.player_choice]}, Monster chose {self.choice_emojis[self.monster_choice]} "
+               self.last_result += f"• Damage dealt: {damage}"
                self.turn_phase = 'result'
            elif self.selected == 3:  # Use potion
                if self.game_state.potions > 0:
                    self.game_state.potions -= 1
                    heal = min(30, self.game_state.max_hp - self.game_state.hp)
                    self.game_state.hp += heal
-                   self.last_result = f"Used potion. Healed {heal} HP"
+                   self.last_result = f"Used potion 🧪 • Healed {heal} HP"
+                   self.combat_log.append("Potion used - Monster skips its turn!")
                    self.turn_phase = 'result'
+                   return None  # Skip monster's turn
            elif self.selected == 4:  # Flee
                if random.random() < 0.7:
                    return self.parent_screen
                else:
-                   self.last_result = "Failed to flee!"
+                   self.last_result = "Failed to flee! 😱"
                    self.turn_phase = 'result'
        return None
 
@@ -101,18 +108,9 @@ class CombatScreen(BaseScreen):
        return None
 
    def _handle_result(self, key):
-       if key == pygame.K_SPACE:
-           if self.monster_hp <= 0:
-               self.game_state.monsters_defeated += 1
-               return self.parent_screen
+       if key in [pygame.K_RETURN, pygame.K_SPACE]:
            self.turn_phase = 'choose'
-           
-           if not self.game_state.cheat_mode:
-               monster_damage = random.randint(5, 15)
-               self.game_state.hp -= monster_damage
-               self.combat_log.append(f"Monster dealt {monster_damage} damage!")
-               
-               death_check = self._check_death()
-               if death_check:
-                   return death_check
+           self.player_choice = None
+           self.monster_choice = None
+           return self._check_death()
        return None
