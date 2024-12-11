@@ -2,6 +2,7 @@ import pygame
 import random
 from .base_screen import BaseScreen
 from .game_over_screen import GameOverScreen
+from .victory_screen import VictoryScreen
 
 class CombatScreen(BaseScreen):
    def __init__(self, screen, game_state):
@@ -109,8 +110,20 @@ class CombatScreen(BaseScreen):
 
    def _handle_result(self, key):
        if key in [pygame.K_RETURN, pygame.K_SPACE]:
+           if self.monster_hp <= 0:
+               self.game_state.monsters_defeated += 1
+               if self.game_state.monsters_defeated >= 3:  # Only show victory after 3+ monsters
+                   return VictoryScreen(self.screen, self.game_state)
+               return self.parent_screen  # Return to game board for regular monsters
            self.turn_phase = 'choose'
            self.player_choice = None
            self.monster_choice = None
-           return self._check_death()
+           
+           if not self.game_state.cheat_mode:  # Only take damage if not in cheat mode
+               monster_damage = random.randint(10, 20)
+               self.game_state.hp -= monster_damage
+               death_check = self._check_death()
+               if death_check:
+                   return death_check
+           return None
        return None

@@ -8,7 +8,7 @@ class WelcomeScreen(BaseScreen):
         self.menu_items = ['Start', 'Options', 'Exit']
         self.selected_item = 0
         self.options_visible = False
-        self.options = ['Sound: ON', 'Cheat Mode: OFF']
+        self.options = ['Sound: ON', 'Cheat Mode: OFF', 'Back to Menu']  # Add back button
         self.selected_option = 0
         
     def draw(self):
@@ -64,5 +64,7 @@ class WelcomeScreen(BaseScreen):
                         self.game_state.toggle_sound()
                     elif self.selected_option == 1:  # Cheat mode toggle
                         self.game_state.toggle_cheat_mode()
+                    elif self.selected_option == 2:  # Back to menu
+                        self.options_visible = False
         
         return None

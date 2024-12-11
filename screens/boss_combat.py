@@ -17,7 +17,7 @@ class BossCombat(CombatScreen):
         if key == pygame.K_SPACE:
             if self.monster_hp <= 0:
                 self.game_state.monsters_defeated += 1
-                return VictoryScreen(self.screen, self.game_state)
+                return VictoryScreen(self.screen, self.game_state)  # Go to victory screen for boss
             self.turn_phase = 'choose'
             
             if not self.game_state.cheat_mode:  # Only take damage if not in cheat mode
