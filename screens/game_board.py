@@ -105,21 +105,32 @@ class GameBoard(BaseScreen):
         self._draw_ui()
 
     def _draw_ui(self):
-        self.draw_text("Dungeon Quest", (200, 200, 255), 
-                      (self.screen.get_width()//2, 40))
+        # Draw stats in top-left corner with a smaller font
+        stats_font = pygame.font.SysFont('segoeuiemoji', 24)
         
-        stats_text = f"HP: {self.game_state.hp}/{self.game_state.max_hp}  Potions: {self.game_state.potions}"
-        self.draw_text(stats_text, (255, 255, 255), 
-                      (self.screen.get_width()//2, self.screen.get_height() - 90))
+        # Health bar
+        hp_text = f"❤️ {self.game_state.hp}/{self.game_state.max_hp}"
+        hp_surface = stats_font.render(hp_text, True, (255, 255, 255))
+        self.screen.blit(hp_surface, (10, 10))
         
-        # Draw story log
+        # Potions
+        potion_text = f"🧪 {self.game_state.potions}"
+        potion_surface = stats_font.render(potion_text, True, (255, 255, 255))
+        self.screen.blit(potion_surface, (10, 40))
+        
+        # Scrolls (if implemented)
+        if hasattr(self.game_state, 'scrolls'):
+            scroll_text = f"📜 {self.game_state.scrolls}"
+            scroll_surface = stats_font.render(scroll_text, True, (255, 255, 255))
+            self.screen.blit(scroll_surface, (10, 70))
+
+        # Story log at the bottom
         if self.story_log:
-            self.draw_text(self.story_log[-1], (200, 200, 200),
-                          (self.screen.get_width()//2, self.screen.get_height() - 60))
-        
-        controls = "Arrow Keys: Move  |  ESC: Menu"
-        self.draw_text(controls, (150, 150, 150),
-                      (self.screen.get_width()//2, self.screen.get_height() - 30))
+            log_font = pygame.font.SysFont('arial', 20)  # Smaller font for log
+            latest_log = self.story_log[-1]  # Get most recent log entry
+            log_surface = log_font.render(latest_log, True, (200, 200, 200))
+            log_rect = log_surface.get_rect(bottomleft=(10, self.screen.get_height() - 10))
+            self.screen.blit(log_surface, log_rect)
 
     def _check_death(self):
         if self.game_state.hp <= 0:
@@ -146,37 +157,38 @@ class GameBoard(BaseScreen):
         return None
 
     def _handle_movement(self, new_pos):
-        x, y = new_pos
-        self.revealed[x][y] = True
-        cell = self.game_state.board[x][y]
-        old_pos = self.game_state.current_position
+        if not (0 <= new_pos[0] < self.grid_size and 0 <= new_pos[1] < self.grid_size):
+            return None
+
+        # Reveal the cell being moved to
+        self.revealed[new_pos[0]][new_pos[1]] = True
         
-        self.game_state.current_position = new_pos
-        self.game_state.rooms_cleared += 1
+        # Get the cell content
+        cell = self.game_state.board[new_pos[0]][new_pos[1]]
         
         if cell == 'M':
-            self.story_log.append("A monster appears! Prepare for battle!")
             combat_screen = CombatScreen(self.screen, self.game_state)
             combat_screen.parent_screen = self
+            self.story_log.append("⚔️ Encountered a monster!")
             return combat_screen
-        elif cell == 'I':
-            self.story_log.append("You found a healing potion!")
-            self.game_state.items_collected += 1
-            self.game_state.potions += 1
-            self.game_state.board[x][y] = None
-        elif cell == 'T':
-            damage = 10
-            self.story_log.append(f"You triggered a trap! Taking {damage} damage!")
-            self.game_state.hp = max(0, self.game_state.hp - damage)
-            self.game_state.board[x][y] = None
-            
-            death_check = self._check_death()
-            if death_check:
-                return death_check
         elif cell == 'E':
-            self.story_log.append("The final boss appears!")
             boss_screen = BossCombat(self.screen, self.game_state)
             boss_screen.parent_screen = self
+            self.story_log.append("😈 Boss battle begins!")
             return boss_screen
-            
+        elif cell == 'I':
+            self.game_state.potions += 1
+            self.game_state.items_collected += 1
+            self.game_state.board[new_pos[0]][new_pos[1]] = None
+            self.story_log.append("💎 Found a healing potion!")
+        elif cell == 'T':
+            damage = random.randint(10, 20)
+            self.game_state.hp -= damage
+            self.game_state.board[new_pos[0]][new_pos[1]] = None
+            self.story_log.append(f"💀 Triggered a trap! Took {damage} damage!")
+            if self._check_death():
+                return GameOverScreen(self.screen, self.game_state)
+        
+        # Update position
+        self.game_state.current_position = new_pos
         return None
