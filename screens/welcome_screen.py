@@ -1,70 +1,81 @@
 import pygame
+import os
 from .base_screen import BaseScreen
 from .screen_manager import ScreenManager
 
 class WelcomeScreen(BaseScreen):
     def __init__(self, screen, game_state):
         super().__init__(screen, game_state)
-        self.menu_items = ['Start', 'Options', 'Exit']
-        self.selected_item = 0
-        self.options_visible = False
-        self.options = ['Sound: ON', 'Cheat Mode: OFF', 'Back to Menu']  # Add back button
-        self.selected_option = 0
+        self.font = pygame.font.Font(None, 74)
+        self.title_text = "Dungeon Quest"
+        self.start_text = "Press ENTER to Start"
         
+        # Load splash image
+        splash_path = os.path.join('assets', 'splash.jpg')
+        try:
+            self.bg_image = pygame.image.load(splash_path)
+            # Scale the image to fit the screen while maintaining aspect ratio
+            img_ratio = self.bg_image.get_width() / self.bg_image.get_height()
+            screen_ratio = self.screen.get_width() / self.screen.get_height()
+            
+            if screen_ratio > img_ratio:
+                # Screen is wider than image
+                new_height = self.screen.get_height()
+                new_width = int(new_height * img_ratio)
+            else:
+                # Screen is taller than image
+                new_width = self.screen.get_width()
+                new_height = int(new_width / img_ratio)
+            
+            self.bg_image = pygame.transform.scale(self.bg_image, (new_width, new_height))
+            # Calculate position to center the image
+            self.bg_x = (self.screen.get_width() - new_width) // 2
+            self.bg_y = (self.screen.get_height() - new_height) // 2
+        except Exception as e:
+            print(f"Could not load splash image: {splash_path}")
+            print(f"Error: {e}")
+            self.bg_image = None
+            self.bg_x = 0
+            self.bg_y = 0
+
     def draw(self):
+        # Fill screen with dark color
         self.screen.fill((20, 20, 30))
         
-        # Draw title
-        self.draw_text("Dungeon Quest", (200, 200, 255), 
-                      (self.screen.get_width()//2, 100))
+        # Draw background image if available
+        if self.bg_image:
+            self.screen.blit(self.bg_image, (self.bg_x, self.bg_y))
         
-        if not self.options_visible:
-            # Draw menu items
-            for i, item in enumerate(self.menu_items):
-                color = (255, 255, 0) if i == self.selected_item else (255, 255, 255)
-                self.draw_text(item, color, 
-                             (self.screen.get_width()//2, 250 + i * 50))
-        else:
-            # Draw options
-            self.options[0] = f"Sound: {'ON' if self.game_state.sound_enabled else 'OFF'}"
-            self.options[1] = f"Cheat Mode: {'ON' if self.game_state.cheat_mode else 'OFF'}"
-            
-            for i, option in enumerate(self.options):
-                color = (255, 255, 0) if i == self.selected_option else (255, 255, 255)
-                self.draw_text(option, color, 
-                             (self.screen.get_width()//2, 250 + i * 50))
-            
-            self.draw_text("Press ESC to return", (150, 150, 150),
-                          (self.screen.get_width()//2, 400))
+        # Create semi-transparent overlay for better text visibility
+        overlay = pygame.Surface((self.screen.get_width(), self.screen.get_height()))
+        overlay.fill((0, 0, 0))
+        overlay.set_alpha(128)  # 50% transparency
+        self.screen.blit(overlay, (0, 0))
+        
+        # Draw title with shadow
+        title_shadow = self.font.render(self.title_text, True, (0, 0, 0))
+        title_surface = self.font.render(self.title_text, True, (255, 215, 0))  # Gold color
+        
+        # Center the text
+        title_x = self.screen.get_width() // 2
+        title_y = self.screen.get_height() // 3
+        
+        # Draw shadow slightly offset
+        shadow_rect = title_shadow.get_rect(center=(title_x + 2, title_y + 2))
+        self.screen.blit(title_shadow, shadow_rect)
+        
+        # Draw main text
+        title_rect = title_surface.get_rect(center=(title_x, title_y))
+        self.screen.blit(title_surface, title_rect)
+        
+        # Draw "Press ENTER" text with pulsing effect
+        alpha = int(abs(pygame.time.get_ticks() / 1000 % 2 - 1) * 255)
+        start_surface = self.font.render(self.start_text, True, (255, 255, 255))
+        start_surface.set_alpha(alpha)
+        start_rect = start_surface.get_rect(center=(self.screen.get_width() // 2, self.screen.get_height() * 2 // 3))
+        self.screen.blit(start_surface, start_rect)
 
     def handle_event(self, event):
-        if event.type == pygame.KEYDOWN:
-            if not self.options_visible:
-                if event.key == pygame.K_UP:
-                    self.selected_item = (self.selected_item - 1) % len(self.menu_items)
-                elif event.key == pygame.K_DOWN:
-                    self.selected_item = (self.selected_item + 1) % len(self.menu_items)
-                elif event.key in [pygame.K_RETURN, pygame.K_SPACE]:
-                    if self.menu_items[self.selected_item] == 'Start':
-                        return ScreenManager.get_screen('character_select', self.screen, self.game_state)
-                    elif self.menu_items[self.selected_item] == 'Options':
-                        self.options_visible = True
-                    elif self.menu_items[self.selected_item] == 'Exit':
-                        pygame.quit()
-                        exit()
-            else:
-                if event.key == pygame.K_ESCAPE:
-                    self.options_visible = False
-                elif event.key == pygame.K_UP:
-                    self.selected_option = (self.selected_option - 1) % len(self.options)
-                elif event.key == pygame.K_DOWN:
-                    self.selected_option = (self.selected_option + 1) % len(self.options)
-                elif event.key in [pygame.K_RETURN, pygame.K_SPACE]:
-                    if self.selected_option == 0:  # Sound toggle
-                        self.game_state.toggle_sound()
-                    elif self.selected_option == 1:  # Cheat mode toggle
-                        self.game_state.toggle_cheat_mode()
-                    elif self.selected_option == 2:  # Back to menu
-                        self.options_visible = False
-        
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
+            return ScreenManager.get_screen('character_select', self.screen, self.game_state)
         return None

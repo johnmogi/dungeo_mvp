@@ -2,10 +2,6 @@
 import pygame
 import random
 from .base_screen import BaseScreen
-from .combat_screen import CombatScreen
-from .game_over_screen import GameOverScreen
-from .victory_screen import VictoryScreen
-from .boss_combat import BossCombat
 
 class GameBoard(BaseScreen):
     def __init__(self, screen, game_state):
@@ -23,7 +19,7 @@ class GameBoard(BaseScreen):
 
     def _get_cell_color(self, cell, pos):
         if pos == self.game_state.current_position:
-            return '👤', (255, 255, 0)
+            return self.game_state.player_emoji, (255, 255, 0)
         symbols = {
             'S': ('⭐', (0, 255, 0)),  
             'E': ('👿', (255, 0, 0)),
@@ -65,7 +61,7 @@ class GameBoard(BaseScreen):
         self.story_log.append("You enter the dungeon. Defeat 3 monsters to reach the boss!")
 
     def draw(self):
-        self.screen.fill((20, 20, 30))
+        self.screen.fill((0, 0, 0))
         
         for i in range(self.grid_size):
             for j in range(self.grid_size):
@@ -82,7 +78,7 @@ class GameBoard(BaseScreen):
 
                 # Always show player at current position
                 if (i, j) == self.game_state.current_position:
-                    text = '👤'
+                    text = self.game_state.player_emoji
                     color = (255, 255, 0)
                     text_surface = self.font.render(text, True, color)
                     text_rect = text_surface.get_rect(center=(
@@ -109,7 +105,7 @@ class GameBoard(BaseScreen):
         stats_font = pygame.font.SysFont('segoeuiemoji', 24)
         
         # Health bar
-        hp_text = f"❤️ {self.game_state.hp}/{self.game_state.max_hp}"
+        hp_text = f"{self.game_state.hp}/{self.game_state.max_hp} {self.game_state.player_emoji}"
         hp_surface = stats_font.render(hp_text, True, (255, 255, 255))
         self.screen.blit(hp_surface, (10, 10))
         
@@ -124,71 +120,67 @@ class GameBoard(BaseScreen):
             scroll_surface = stats_font.render(scroll_text, True, (255, 255, 255))
             self.screen.blit(scroll_surface, (10, 70))
 
-        # Story log at the bottom
-        if self.story_log:
-            log_font = pygame.font.SysFont('arial', 20)  # Smaller font for log
-            latest_log = self.story_log[-1]  # Get most recent log entry
-            log_surface = log_font.render(latest_log, True, (200, 200, 200))
-            log_rect = log_surface.get_rect(bottomleft=(10, self.screen.get_height() - 10))
-            self.screen.blit(log_surface, log_rect)
+        self.draw_story_log()
+
+    def draw_story_log(self):
+        # Use system font for story log
+        log_font = pygame.font.SysFont('arial', 18)
+        
+        # Get the last few log entries
+        visible_log = self.story_log[-3:]  # Show last 3 entries
+        
+        # Draw log entries from bottom up
+        for i, entry in enumerate(reversed(visible_log)):
+            y_pos = self.screen.get_height() - 30 - (i * 25)
+            text_surface = log_font.render(entry, True, (200, 200, 200))
+            text_rect = text_surface.get_rect(bottomleft=(10, y_pos))
+            self.screen.blit(text_surface, text_rect)
 
     def _check_death(self):
         if self.game_state.hp <= 0:
             self.game_state.hp = 0
+            from .game_over_screen import GameOverScreen
             return GameOverScreen(self.screen, self.game_state)
         return None
 
     def handle_event(self, event):
         if event.type == pygame.KEYDOWN:
-            x, y = self.game_state.current_position
-            new_pos = None
+            new_pos = self.game_state.current_position
             
-            if event.key == pygame.K_UP and x > 0:
-                new_pos = (x-1, y)
-            elif event.key == pygame.K_DOWN and x < 2:
-                new_pos = (x+1, y)
-            elif event.key == pygame.K_LEFT and y > 0:
-                new_pos = (x, y-1)
-            elif event.key == pygame.K_RIGHT and y < 2:
-                new_pos = (x, y+1)
+            if event.key == pygame.K_LEFT:
+                new_pos = (new_pos[0], max(0, new_pos[1] - 1))
+            elif event.key == pygame.K_RIGHT:
+                new_pos = (new_pos[0], min(self.grid_size - 1, new_pos[1] + 1))
+            elif event.key == pygame.K_UP:
+                new_pos = (max(0, new_pos[0] - 1), new_pos[1])
+            elif event.key == pygame.K_DOWN:
+                new_pos = (min(self.grid_size - 1, new_pos[0] + 1), new_pos[1])
+            
+            if new_pos != self.game_state.current_position:
+                cell = self.game_state.board[new_pos[0]][new_pos[1]]
+                self.game_state.current_position = new_pos
                 
-            if new_pos:
-                return self._handle_movement(new_pos)
-        return None
-
-    def _handle_movement(self, new_pos):
-        if not (0 <= new_pos[0] < self.grid_size and 0 <= new_pos[1] < self.grid_size):
-            return None
-
-        # Reveal the cell being moved to
-        self.revealed[new_pos[0]][new_pos[1]] = True
+                if cell == 'E':  # Enemy encounter
+                    from .combat_transition import CombatTransition
+                    return CombatTransition(self.screen, self.game_state)
+                elif cell == 'M':
+                    from .combat_screen import CombatScreen
+                    combat_screen = CombatScreen(self.screen, self.game_state)
+                    combat_screen.parent_screen = self
+                    self.story_log.append("⚔️ Encountered a monster!")
+                    return combat_screen
+                elif cell == 'I':
+                    self.game_state.potions += 1
+                    self.game_state.items_collected += 1
+                    self.game_state.board[new_pos[0]][new_pos[1]] = None
+                    self.story_log.append("💎 Found a healing potion!")
+                elif cell == 'T':
+                    damage = random.randint(10, 20)
+                    self.game_state.hp -= damage
+                    self.game_state.board[new_pos[0]][new_pos[1]] = None
+                    self.story_log.append(f"💀 Triggered a trap! Took {damage} damage!")
+                    if self._check_death():
+                        from .game_over_screen import GameOverScreen
+                        return GameOverScreen(self.screen, self.game_state)
         
-        # Get the cell content
-        cell = self.game_state.board[new_pos[0]][new_pos[1]]
-        
-        if cell == 'M':
-            combat_screen = CombatScreen(self.screen, self.game_state)
-            combat_screen.parent_screen = self
-            self.story_log.append("⚔️ Encountered a monster!")
-            return combat_screen
-        elif cell == 'E':
-            boss_screen = BossCombat(self.screen, self.game_state)
-            boss_screen.parent_screen = self
-            self.story_log.append("😈 Boss battle begins!")
-            return boss_screen
-        elif cell == 'I':
-            self.game_state.potions += 1
-            self.game_state.items_collected += 1
-            self.game_state.board[new_pos[0]][new_pos[1]] = None
-            self.story_log.append("💎 Found a healing potion!")
-        elif cell == 'T':
-            damage = random.randint(10, 20)
-            self.game_state.hp -= damage
-            self.game_state.board[new_pos[0]][new_pos[1]] = None
-            self.story_log.append(f"💀 Triggered a trap! Took {damage} damage!")
-            if self._check_death():
-                return GameOverScreen(self.screen, self.game_state)
-        
-        # Update position
-        self.game_state.current_position = new_pos
         return None

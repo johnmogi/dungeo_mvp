@@ -6,15 +6,22 @@ class BaseScreen:
         self.screen = screen
         self.game_state = game_state
         self.parent_screen = None
-        try:
-            self.font = pygame.font.SysFont('segoeuiemoji', 32)
-        except pygame.error:
+        
+        # Try different fonts that support emojis
+        fonts = ['segoe ui emoji', 'segoe ui symbol', 'apple color emoji', 'noto color emoji', 'arial']
+        self.font = None
+        for font_name in fonts:
             try:
-                # Fallback to Arial which usually supports basic emojis on Windows
-                self.font = pygame.font.SysFont('arial', 32)
-            except pygame.error:
-                # Last resort - use default font
-                self.font = pygame.font.Font(None, 32)
+                self.font = pygame.font.SysFont(font_name, 24)
+                # Test if font can render emojis
+                test_surface = self.font.render('⚔️', True, (255, 255, 255))
+                if test_surface.get_width() > 5:  # Successfully rendered
+                    break
+            except:
+                continue
+        
+        if not self.font:
+            self.font = pygame.font.Font(None, 24)
 
     def update(self):
         return None
@@ -28,9 +35,9 @@ class BaseScreen:
     def draw_text(self, text, color, pos, centered=True):
         try:
             text_surface = self.font.render(text, True, color)
-        except pygame.error:
-            # If rendering fails with emojis, try to render without them
-            text = ''.join(c for c in text if ord(c) < 0x10000)
+        except:
+            # If rendering fails, try without combining characters
+            text = ''.join(c for c in text if len(c.encode('utf-16', 'surrogatepass')) <= 2)
             text_surface = self.font.render(text, True, color)
             
         text_rect = text_surface.get_rect()

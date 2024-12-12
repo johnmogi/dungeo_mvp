@@ -1,9 +1,10 @@
 import pygame
 import random
-from .combat_screen import CombatScreen
+from .base_screen import BaseScreen
 from .victory_screen import VictoryScreen
+from .game_over_screen import GameOverScreen
 
-class BossCombat(CombatScreen):
+class BossCombat(BaseScreen):
     def __init__(self, screen, game_state):
         super().__init__(screen, game_state)
         self.monster_hp = 100

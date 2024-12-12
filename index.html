@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dungeon Quest</title>
+    <script src="https://cdn.jsdelivr.net/npm/pyodide@0.24.1/pyodide.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        #game-container {
+            position: relative;
+            width: 800px;
+            height: 600px;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 24px;
+        }
+        #game-canvas {
+            display: none;
+            border: 2px solid #333;
+        }
+        .progress {
+            width: 300px;
+            height: 20px;
+            background: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        .progress-bar {
+            width: 0%;
+            height: 100%;
+            background: #4CAF50;
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+        <div id="loading">
+            <p>Loading Dungeon Quest...</p>
+            <div class="progress">
+                <div class="progress-bar" id="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function initGame() {
+            try {
+                // Initialize Pyodide
+                let pyodide = await loadPyodide();
+                updateProgress(20);
+
+                // Install required packages
+                await pyodide.loadPackage(['numpy', 'pygame']);
+                updateProgress(40);
+
+                // Load the game code
+                const response = await fetch('game_bundle.py');
+                const gameCode = await response.text();
+                updateProgress(60);
+
+                // Set up the Python environment
+                await pyodide.runPythonAsync(`
+                    import pygame
+                    pygame.init()
+                    pygame.display.set_mode((800, 600))
+                `);
+                updateProgress(80);
+
+                // Run the game
+                await pyodide.runPythonAsync(gameCode);
+                updateProgress(100);
+
+                // Hide loading screen and show canvas
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('game-canvas').style.display = 'block';
+
+            } catch (error) {
+                console.error('Error loading game:', error);
+                document.getElementById('loading').innerHTML = 
+                    '<p style="color: red;">Error loading game. Please try again.</p>';
+            }
+        }
+
+        function updateProgress(percent) {
+            document.getElementById('progress').style.width = percent + '%';
+        }
+
+        // Start loading when page is ready
+        window.addEventListener('load', initGame);
+    </script>
+</body>
+</html>
